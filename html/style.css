@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+header img {
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+}
+
+.scrollim img {
+    width: 100%;
+    height: 700px;
+    border: black;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+/**topnav split van https://www.w3schools.com/howto/howto_css_topnav_split.asp**/
+
+.topnav {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.split:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.split {
+    float: left;
+    background-color: #7e2020;
+    color: white;
+}
+
+.hometext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hometext h1 {
+    align-items: center;
+    margin: 4em 0em 2em 0em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 35%;
+    text-align: center;
+    align-items: center;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #7e2020;
+    padding: 15px;
+    background-color: #7e2020;
+}
+
+.hometext p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+    text-align: center;
+}
+
+.homerow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.homerow img{
+    margin: 5em 3em 3em 3em;
+    max-width: 100%;
+    width: 30em;
+    height: 25em;
+}
+
+.hometext2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10em;
+}
+
+.hometext2 h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #7e2020;
+    padding: 15px;
+    background-color: #7e2020;
+}
+
+.hometext2 p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    margin: 4em;
+    margin-bottom: 0em;
+    border-width: 5px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-left: whitesmoke;
+    border-right: whitesmoke;
+    padding: 2em;
+}
+
+/**scroll image bar from https://www.w3schools.com/howto/default.asp**/
+
+section.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.albumtitle {
+    align-items: center;
+    margin: 4em 0em 2em 30em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 35%;
+    text-align: center;
+    align-items: center;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #7e2020;
+    padding: 15px;
+    background-color: #7e2020;
+}
+
+.albumtitle h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: x-large;
+}
+
+
+.albumright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 5%;
+}
+
+.albumleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 5%;
+}
+
+.albumright p {
+    margin: 3em 5em 4em 6em;
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.albumright img {
+    margin: 2em 7em 3em 2em;
+    max-width: 100%;
+    width: 68em;
+    height: 22.7em;
+}
+
+.albumleft p {
+    margin: 3em 5em 4em 2em;
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.albumleft img {
+    margin: 3.5em 2em 3em 5em;
+    max-width: 100%;
+    width: 60em;
+    height: 23em;
+}
+
+.memberspic img {
+    margin: 4em 2em 2.5em 7em;
+    max-width: 100%;
+    width: 80em;
+    height: 35em;
+}
+
+.aboutm h1 {
+    align-items: center;
+    margin: 2em 0em 2em 15em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 35%;
+    text-align: center;
+    align-items: center;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #7e2020;
+    padding: 15px;
+    background-color: #7e2020;
+}
+
+.damiano {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 5%;
+}
+
+.damiano img {
+    margin: 2em 7em 3em 2em;
+    max-width: 100%;
+    width: 68em;
+    height: 29em;
+}
+
+.damiano p {
+    margin: 3em 6em 4em 6em;
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.thomas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 5%;
+}
+
+.thomas img {
+    margin: 2em 7em 3em 2em;
+    max-width: 100%;
+    width: 50em;
+    height: 31em;
+}
+
+.thomas p {
+    margin: 3em 6em 4em 6em;
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lkt h1 {
+    align-items: center;
+    margin: 2em 0em 2em 16.2em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 15em;
+    text-align: center;
+    align-items: center;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #7e2020;
+    padding: 15px;
+    background-color: #7e2020;
+}
+
+.tourtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 5%;
+}
+
+.scrollam img {
+    max-width: 100%;
+    width: 50em;
+    height: 38em;
+}
+
+.scroll-container2 {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scroll-container2 {
+    margin: 3em 5em 0em 0em;
+}
+
+.tourtext p {
+    margin: 3em 2em 4em 5em;
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 5%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column img {
+    margin: 2em 5em 5em 5em;
+    max-width: 100%;
+    width: 30em;
+    height: 25em;
+}
+
+.column p {
+    margin: -1em 0em 3em 0em;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.lkt2 h2 {
+    align-items: center;
+    margin: 2em 0em 2em 22.5em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 18em;
+    text-align: center;
+    align-items: center;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #7e2020;
+    padding: 15px;
+    background-color: #7e2020;
+}
